@@ -1,8 +1,8 @@
 /*
 * @Author: Gabriel
 * @Date:   2018-07-19 14:33:57
-* @Last Modified by:   Gabriel
-* @Last Modified time: 2018-07-20 11:08:05
+* @Last Modified by:   Gabriel Rosales
+* @Last Modified time: 2018-07-25 13:09:55
 */
 
 //Requireds
@@ -33,6 +33,7 @@ switch(comando){
 	break;
 
 	default:
+		console.log('Comando no reconocido');
 		console.log('Comando no reconocido');
 	
 

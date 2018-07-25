@@ -1,8 +1,8 @@
 /*
 * @Author: Gabriel
 * @Date:   2018-07-19 15:08:49
-* @Last Modified by:   Gabriel
-* @Last Modified time: 2018-07-20 11:03:46
+* @Last Modified by:   Gabriel Rosales
+* @Last Modified time: 2018-07-25 13:09:43
 */
 const fs = require('fs');
 const colors = require('colors');
@@ -11,6 +11,7 @@ const colors = require('colors');
 
 let listarTabla = (base, limite = 10)=>{
 
+	console.log("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*".green);
 	console.log("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*".green);
 	console.log(`*-*-*-*-* Tabla de ${base} -*-*-*-*`.green);
 	console.log("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*".green);
